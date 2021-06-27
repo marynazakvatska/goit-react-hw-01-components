@@ -8,7 +8,7 @@ import friends from './friends.json';
 
 import user from './user.json';
 import transactions from './transactions.json';
-import ColorPicker from './components/ColorPicker/ColorPicker';
+/* import ColorPicker from './components/ColorPicker/ColorPicker';
 
 const colorPickerOptions = [
     { label: 'red', color: '#F44336' },
@@ -17,7 +17,7 @@ const colorPickerOptions = [
     { label: 'grey', color: '#607D8B' },
     { label: 'pink', color: '#E91E63' },
     { label: 'indigo', color: '#3F51B5' },
-];
+]; */
 
 
 
@@ -37,8 +37,8 @@ const App = () => {
 
             <FriendList friends={friends} />
             <TransactionHistory items={transactions} />
-            <ColorPicker options={colorPickerOptions} />
-
+            {/*     <ColorPicker options={colorPickerOptions} />
+ */}
         </div>
 
     )
