@@ -1,0 +1,30 @@
+table {
+  width: 600px;
+  margin: auto;
+  border: 2px solid rgb(23, 149, 233);
+  border-collapse: collapse;
+}
+thead {
+  height: auto;
+  color: #fff;
+  background-color: rgb(23, 149, 233);
+  text-transform: uppercase;
+}
+
+tbody {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+tbody td:not(:last-child) {
+  border-right: 1px solid rgb(23, 149, 233);
+}
+
+tr:nth-child(even) {
+  background-color: rgb(140, 140, 187);
+}
+
+th,
+td {
+  padding: 20px;
+}

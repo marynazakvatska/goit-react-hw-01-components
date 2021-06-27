@@ -1,0 +1,139 @@
+.profile {
+  border: 2px solid black;
+  display: block;
+  width: 280px;
+ overflow: hidden;
+  border-radius: 10px;
+   margin-left: auto;
+  margin-right: auto;
+
+}
+.avatar {
+    display: block;
+    border-radius: 50%;
+    width: 150px;
+margin: 10px auto;
+border: 1px  rgb(183, 190, 190) solid;
+
+}
+.description {
+    margin-left: auto;
+    margin-right: auto;
+}
+.name {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+     
+}
+.tag, .quantity {
+font-size: 16px;
+
+text-align: center;
+font-weight: 600;
+}
+
+.quantity {
+    color: black;
+}
+.stats {
+background-color: rgb(183, 190, 190);
+display: flex;
+list-style-type: none;
+margin: 0;
+padding: 0;
+justify-content: space-around;
+
+}
+
+.element {
+    border: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  
+}
+.label {
+    color: rgb(92, 100, 100);
+}
+.location {
+    text-align: center;
+     color: rgb(92, 100, 100);
+}
+
+
+/* 
+ .profile {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgb(245, 239, 239);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  border: solid 1px rgb(48, 46, 46);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #bbdfe0;
+  border-bottom: solid 1px rgb(48, 46, 46);
+}
+.avatar {
+  margin-top: 30px;
+  display: block;
+  width: 50%;
+  border-radius: 50%;
+  border: 2px solid rgba(7, 7, 7, 0.5);
+  background-color: rgb(146, 165, 177);
+}
+.name {
+  font-size: 24px;
+  font-weight: 700;
+}
+.tag {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(114, 113, 113);
+}
+.location {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(114, 113, 113);
+}
+.stats {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.stats li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  width: 100%;
+}
+.stats li:not(:last-child) {
+  border-right: 1px solid lightgray;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(114, 113, 113);
+}
+.quantity {
+  font-size: 22px;
+  font-weight: 600;
+} */
